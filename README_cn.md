@@ -17,29 +17,29 @@
 
 ![](imgs/S100_YOLO11x.png)
 
-- BiliBili: https://www.bilibili.com/video/BV1EUE4zgE2V
-- Youtube: 
+- [BiliBili](https://www.bilibili.com/video/BV1EUE4zgE2V)
+- [Youtube](https://www.youtube.com/watch?v=GeHY4D59PnU)
 
 #### S100: YOLO12n, 1280x1280, 80 Classes, e2e 30FPS
 
 ![](imgs/S100_1280YOLO12n.png)
 
-- BiliBili: https://www.bilibili.com/video/BV1JyjGzfEEW
-- Youtube: 
+- [BiliBili](https://www.bilibili.com/video/BV1JyjGzfEEW)
+- [Youtube](https://www.youtube.com/watch?v=PAP8rTfv4og)
 
 #### S100: 8 Channel YOLO12n, 640x640, 80 Classes, e2e 8 x 30 FPS
 
 ![](imgs/S100_8YOLO12n.png)
 
-- BiliBili: https://www.bilibili.com/video/BV1RXjGzpEBU
-- Youtube: 
+- [BiliBili](https://www.bilibili.com/video/BV1RXjGzpEBU)
+- [Youtube](https://www.youtube.com/watch?v=vVFwuFYN3KA)
 
 #### S100: YOLOE 11 l Seg, Prompt Free, 640x640, 4585 Classes, e2e 30FPS
 
 ![](imgs/S100_YOLOE_11Seg.png)
 
-- BiliBili: https://www.bilibili.com/video/BV1EyjGzfEy6
-- Youtube: 
+- [BiliBili](https://www.bilibili.com/video/BV1EyjGzfEy6)
+- [Youtube](https://www.youtube.com/watch?v=8qkSbUNlfNw)
 
 ### RDK X5
 
@@ -47,25 +47,22 @@
 
 ![](imgs/X5_YOLO11n.png)
 
-- BiliBili: https://www.bilibili.com/video/BV1NN91Y1EBP
-- Youtube: 
+- [BiliBili](https://www.bilibili.com/video/BV1NN91Y1EBP)
+- [Youtube](https://www.youtube.com/watch?v=uWW0bd0FZ-4)
 
 #### X5: YOLOv8n, 640x640, 80 Classes, e2e 220FPS
 
 ![](imgs/X5_YOLOv8n.png)
 
-- BiliBili: https://www.bilibili.com/video/BV12h41eYEer
-- Youtube: 
+- [BiliBili](https://www.bilibili.com/video/BV12h41eYEer)
+- [Youtube](https://www.youtube.com/watch?v=H11J3lWZZsY)
 
 #### X5: YOLOv8n Seg, 640x640, 80 Classes, e2e 166FPS
 
 ![](imgs/X5_YOLOv8Seg.png)
 
-- BiliBili: https://www.bilibili.com/video/BV1xE4UeuEJh
-- Youtube: 
-
-
-
+- [BiliBili](https://www.bilibili.com/video/BV1xE4UeuEJh)
+- [Youtube](https://www.youtube.com/watch?v=4YyhO8oDpZE)
 
 ## Introduction to ROS2
 
@@ -143,8 +140,8 @@ RDK S100 是地瓜机器人面向具身智能和机器人场景推出的高性�
 
 D-Robotics RDK X5搭载Sunrise 5智能计算芯片, 可提供高达10 Tops的算力, 是一款面向智能计算与机器人应用的全能开发套件, 接口丰富, 极致易用, 支持Transformer、RWKV、Occupancy、Stereo Perception等多种复杂模型和最新算法, 加速智能化应用快速落地. 
 
-- [RDK X5 介绍(中文)](https://developer.d-robotics.cc/en/rdkx5)
-- [RDK X5 介绍(英文)](https://developer.d-robotics.cc/rdkx5)
+- [RDK X5 介绍(中文)](https://developer.d-robotics.cc/rdkx5)
+- [RDK X5 介绍(英文)](https://developer.d-robotics.cc/en/rdkx5)
 
 
 ## Inteoration to TogetheROS.Bot (TROS)
@@ -275,6 +272,8 @@ NVIDIA Tensor RT: https://developer.nvidia.cn/tensorrt
 
 如何编译出高效率的BPU模型给TROS使用？这里需要参考RDK Model Zoo中的YOLO的部分.
 
+注意, 与TensorRT一致, BPU的工具链是开放的工具链, 部署的方式并不唯一, 您完全可以根据您自己的经验和实际需要来设计不同的部署方式, 编写适合您自己的部署方式的后处理程序. Model Zoo维护了相对较高性能的一些等价修改方法.
+
 ### RDK S100 Plus / RDK S100 Model Zoo
 
 ![](imgs/rdk_model_zoo_s.jpeg)
@@ -299,5 +298,6 @@ https://github.com/D-Robotics/rdk_model_zoo
 
 
 ## 结语
+
 本文介绍了如何在RDK的机器人操作系统(ROS2)中高效使用YOLO算法, 主要思想是使用Ultralytics YOLO去训练, 使用Model Zoo去转化和验证, 使用RDK TROS去高效Runtime.
 
