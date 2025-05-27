@@ -76,7 +76,7 @@
 
 ROS中的每个节点应负责单个模块目的 (例如, 一个用于控制车轮电机的节点, 一个用于控制激光测距仪的节点等). 每个节点可以通过话题、服务、动作或参数向其他节点发送和接收数据, 一个完整的机器人系统由许多协同工作的节点组成. 
 
-这些节点的开发者可以是硬件厂商, 软件厂商, 算法工程师, 机器人工程师等. 只要我们开发的节点符合ROS2的规范, 就可以轻松的集成进一个庞大的机器人系统.
+**这些节点的开发者可以是硬件厂商, 软件厂商, 算法工程师, 机器人工程师等. 只要我们开发的节点符合ROS2的规范, 就可以轻松的集成进一个庞大的机器人系统.**
 
 - [ROS](https://www.ros.org/)
 - [ROS2 英文手册](https://docs.ros.org/en/rolling/index.html)
@@ -96,7 +96,7 @@ ROS中的每个节点应负责单个模块目的 (例如, 一个用于控制车�
 
 Ultralytics YOLO11是一个通用的AI框架, 支持多种计算机视觉任务. 该框架可用于执行检测、分割、OBB、分类和姿态估计. 这些任务中的每一个都有不同的目标和用例, 允许您使用单个框架解决各种计算机视觉挑战. 
 
-我们可以使用Ultralytics YOLO来训练自己的算法模型, 得到自己的算法模型后, 参考RDK Model Zoo将其转化为TROS可运行的BPU模型.
+**我们可以使用Ultralytics YOLO来训练自己的算法模型, 得到自己的算法模型后, 参考RDK Model Zoo将其转化为TROS可运行的BPU模型.**
 
 - [Ultralytics](https://www.ultralytics.com/)
 - [Ultralytics YOLO Document](https://docs.ultralytics.com/)
@@ -152,7 +152,7 @@ TogetheROS.Bot是D-Robotics面向机器人厂商和生态开发者推出的机�
 
 TogetheROS.Bot支持在RDK平台上运行, 同时提供模拟器版本在X86平台上运行. RDK平台涵盖下图所示的全部功能, X86平台支持以图片回灌方式体验部分功能, 提高用户算法开发和验证效率, 并能够快速迁移到RDK平台. 
 
-我们维护了超30个TROS的Package, 这些都是标准的ROS2 Humble 节点. 源码托管在GitHub组织D-Robotics, 仓库名称一般由hobot_*开头.
+**我们维护了超30个TROS的Package, 这些都是标准的ROS2 Humble 节点. 源码托管在GitHub组织D-Robotics, 仓库名称一般由hobot_开头.**
 
 - [GitHub](https://github.com/D-Robotics/)
 
@@ -182,7 +182,7 @@ TogetheROS.Bot支持在RDK平台上运行, 同时提供模拟器版本在X86平�
 - [TROS手册(GitHub)](https://d-robotics.github.io/rdk_doc/en/Robot_development/apps/video_boxs/)
 - [GitHub](https://github.com/D-Robotics/hobot_rtsp_client)
 
-#### MIPI摄像头节点
+#### MIPI摄像头节点 (重点)
 
 这个节点负责将来自MIPI摄像头的YUV420SP(NV12)图像转化为ROS2 Topic. 已经调试好ISP的MIPI摄像头参考文档即可.
 
@@ -224,7 +224,7 @@ hobot_cv是一个图像处理节点, 主要负责图像的预处理和后处理,
 - [GitHub](https://github.com/D-Robotics/hobot_cv)
 
 
-#### hobot_dnn 算法推理节点
+#### hobot_dnn 算法推理节点 (重点)
 
 订阅YUV420SP(NV12)的图像, 使用hobot_cv的硬件加速来进行图像前处理, 送入BPU进行推理, 并以ROS2 Topic的形式发布出算法推理结果.
 
@@ -243,7 +243,7 @@ hobot_cv是一个图像处理节点, 主要负责图像的预处理和后处理,
 - [GitHub](https://github.com/D-Robotics/hobot_websocket)
 
 
-#### AI MSG 算法结果的自定义Topic
+#### AI MSG 算法结果的自定义Topic  (重点)
 
 所有由dnn_node发布的算法结果由这个功能包管理, 包括检测、分割、关键点等算法结果，可以阅读这个功能包的源码来编写订阅Topic的程序.
 
@@ -289,7 +289,7 @@ https://github.com/D-Robotics/rdk_model_zoo
 
 ### 使用方法
 
-当你参考Model Zoo的方法获得一个模型后, 修改TROS的dnn_node的workconfig.json文件即可. 
+**当你参考Model Zoo的方法获得一个模型后, 修改TROS的dnn_node的workconfig.json文件即可. **
 
 ### 目前的适配情况如下
 

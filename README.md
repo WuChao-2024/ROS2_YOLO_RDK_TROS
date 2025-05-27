@@ -178,7 +178,7 @@ By combining standard ROS 2 Humble nodes, TROS can perform intelligent analysis 
 
 ### TROS Packages and Nodes
 
-#### IPC Camera Node
+#### IPC Camera Node (Important)
 
 This node is responsible for converting the RTSP stream of H264/H265 from the IPC webcam into the ROS2 Topic.
 
@@ -228,7 +228,7 @@ hobot_cv is an image processing node, mainly responsible for the preprocessing a
 - [GitHub](https://github.com/D-Robotics/hobot_cv)
 
 
-#### hobot_dnn Algorithm Node
+#### hobot_dnn Algorithm Node (Important)
 
 Subscribe to the images of YUV420SP(NV12), use the hardware acceleration of hobot_cv for image preprocessing, send them to the BPU for inference, and publish the algorithm inference results in the form of ROS2 Topic.
 
@@ -303,11 +303,4 @@ The current adaptation status is as follows
 ### Conclusion
 
 This article introduces how to efficiently use the YOLO algorithm in RDK's robot operating system (ROS2). The main idea is to use Ultralytics YOLO for training, Model Zoo for transformation and verification, and RDK TROS for efficient Runtime.
-
-
-
-
-
-
-
 
