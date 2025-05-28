@@ -96,11 +96,7 @@ Introducing Ultralytics YOLO11, the latest version of the acclaimed real-time ob
 
 Ultralytics YOLO11 is a versatile AI framework that supports multiple computer vision tasks. The framework can be used to perform detection, segmentation, obb, classification, and pose estimation. Each of these tasks has a different objective and use case, allowing you to address various computer vision challenges with a single framework.
 
-- [Ultralytics](https://www.ultralytics.com/)
-- [Ultralytics YOLO Document](https://docs.ultralytics.com/)
-- [Ultralytics YOLO GitHub](https://github.com/ultralytics/ultralytics)
-
-We can use Ultralytics YOLO to train our own algorithm Model. After obtaining our own algorithm model, we can refer to RDK Model Zoo to transform it into a BPU model that TROS can run.
+**We can use Ultralytics YOLO to train our own algorithm Model. After obtaining our own algorithm model, we can refer to RDK Model Zoo to transform it into a BPU model that TROS can run.**
 
 - [Ultralytics](https://www.ultralytics.com/)
 - [Ultralytics YOLO Document](https://docs.ultralytics.com/)
@@ -148,7 +144,7 @@ Powered by the 10 TOPS Sunrise 5 chip, the RDK X5 is an all-in-one development k
 - [Introduction to RDK X5 (English)](https://developer.d-robotics.cc/en/rdkx5)
 
 
-## Inteoration to TogetheROS.Bot (TROS)
+## Introduction to TogetheROS.Bot (TROS)
 
 ![](imgs/Introduction_to_TROS.png)
 
