@@ -144,7 +144,7 @@ D-Robotics RDK X5搭载Sunrise 5智能计算芯片, 可提供高达10 Tops的算
 - [RDK X5 介绍(英文)](https://developer.d-robotics.cc/en/rdkx5)
 
 
-## Inteoration to TogetheROS.Bot (TROS)
+## Introduction to TogetheROS.Bot (TROS)
 
 ![](imgs/Introduction_to_TROS.png)
 
