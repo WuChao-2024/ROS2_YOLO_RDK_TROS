@@ -2,7 +2,7 @@
 
 ## Abstract
 
-![](imgs/ROS2_YOLO_RDK_TROS_169.png)
+![](imgs/ROS2_YOLO_RDK_TROS_169.jpeg)
 
 - Ultralytics YOLO是一个开源的算法框架, 可以非常轻松高效的训练自己的算法模型. 
 - RDK是地瓜机器人的机器人开发套件, 可以在RDK上运行基于Ubuntu 22.04的RDK OS. 同时可以运行基于ROS2 Humble的TROS, 高效利用RDK的异构计算能力, 也能方便的集成到其他由ROS2构建的机器人系统中.
