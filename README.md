@@ -2,7 +2,7 @@
 
 ## Abstract
 
-![](imgs/ROS2_YOLO_RDK_TROS_169.png)
+![](imgs/ROS2_YOLO_RDK_TROS_169.jpeg)
 
 - Ultralytics YOLO is an open-source algorithm framework that allows for very easy and efficient training of custom algorithm models.  
 - RDK is the robot development kit for DiGua robots, on which the RDK OS based on Ubuntu 22.04 can be run. Additionally, TROS based on ROS 2 Humble can also be executed, making efficient use of the RDK's heterogeneous computing capabilities, and can be easily integrated into other robotic systems built with ROS 2.  
