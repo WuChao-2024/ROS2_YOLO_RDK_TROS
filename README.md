@@ -291,10 +291,6 @@ https://github.com/D-Robotics/rdk_model_zoo
 
 When you obtain a Model by referring to the method of Model Zoo, you can modify the workconfig.json file of TROS 'dnn_node.
 
-The current adaptation status is as follows
-
-![](imgs/table.png)
-
 
 ### Conclusion
 
