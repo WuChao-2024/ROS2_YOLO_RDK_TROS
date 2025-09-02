@@ -291,10 +291,6 @@ https://github.com/D-Robotics/rdk_model_zoo
 
 **当你参考Model Zoo的方法获得一个模型后, 修改TROS的dnn_node的workconfig.json文件即可. **
 
-### 目前的适配情况如下
-
-![](imgs/table.png)
-
 
 
 ## 结语
